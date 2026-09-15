@@ -57,9 +57,10 @@ ALUを使用するための命令は上位xxです。下記に例を表記。<br
 #### 使用できるレジスタ
 レジスタの選択には下位6bitを使います。<br>
 そのうち上位3bitは転送元、下位3bitは転送先の選択に使います。<br>
-下位6bitの内INPUTは上位3bitのみ、OUTPUTは下位3bitを使います<br>
+ここではI/Oを選択することもできます。
 > [!WARNING]
-> INPUTは下位6bitの内の上位3bitのみ、OUTPUTは下位6bitの内の下位3bitのみで使用できます。
+> INPUT命令では、下位6bitの上位3bitを使用します。<br>
+> OUTPUT命令では、下位6bitの下位3bitを使用します。
 <details>
 <summary>表を表示</summary>
   
